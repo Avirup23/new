@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+    <title> 
+        HOME
+    </title>
+</head>
+
+<body>
+    <main>
+        <div class="wrapper">
+            <nav> 
+                <a href="#group1">Home</a>
+                <a href="#group2">About</a>
+                <a href="#group3">Projects</a>
+                <a href="#">Contact me</a>
+            </nav>
+            <div class="scroll-group" id="group1">
+                <div class="layer base-layer">
+                    <model-viewer src="./door.glb" disable-tap camera-orbit="175deg 90deg 0"  auto-rotate rotation-per-second="30deg" disable-zoom></model-viewer>
+                </div>
+                <div class="layer mid-layer">
+                    <div>
+                        <h1>Welcome! to my personal website.</h1>
+                        <p>"Without data you're just an another person with an opinion."</p>
+                        <!-- <p>"Statistics do not speak for themselves."</p> -->
+                        <!-- <p>"Statistics is like a bikini. What they reveal is interesting. But what they hide is vital"</p> -->
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-group" id="group2">
+                <div class="layer base-layer">
+                    <model-viewer src="./door.glb" disable-tap camera-orbit="175deg 90deg 0"  auto-rotate rotation-per-second="30deg" disable-zoom></model-viewer>
+                </div>
+                <div class="layer mid-layer">
+                    <div>
+                        <p>"Statistics do not speak for themselves."</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="scroll-group" id="group3">
+                <div class="layer mid-layer">
+                    <div>
+                        <h1>Project Works</h1>
+                    </div>
+                    <div class="menu-scroll">
+                        <div class="container">
+                            <div class="description" id="pong">
+                                <h2>Pong</h2>
+                                <p> Pygame library of python is one of the easiest way to make games and so I have tried to apply it to make this game. You can play it !! </p>
+                                <a href="./pong_game" >Download</a>
+                            </div>
+                            <img src="./mountains.jpg" alt="Pong">
+                        </div>
+                        <div class="container">
+                            <div class="description" id="wordle">
+                                <h2>Wordle</h2>
+                                <p>In the Covid-19 lockdown time this game had become very populer. So, this first project was just to
+                                    design a
+                                    wordle bot which can produce best 15 guesses each turn and can help you to inevitably win a match.</p>
+                                    <a href="#" >link</a>
+                            </div>
+                            <img src="./laptop.jpg" alt="Wordle">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- <div class="loading">
+        <div class="loading-icon">
+        </div>
+    </div> -->
+
+    <footer>
+
+    </footer>
+</body>
+</html>
